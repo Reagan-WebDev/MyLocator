@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="MyLocation.css">
+    <script src="MyLocation.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>User Location Tracker</h2>
+        <button onclick="getLocation()">Get My Location</button>
+        <p id="location-info"></p>
+        <div id="map"></div>
+    </div>
+
+    <!-- Google Maps API (Replace YOUR_API_KEY) -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPdeBQxpiA_PvFb5jxozs4TdwN-nTrqnQ&callback=initMap" async defer></script>
+</body>
+</html>
